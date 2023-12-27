@@ -36,7 +36,10 @@ console.log(isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)); // fa
 <!-- Задача 2. Розрахунок калорій -->
 
 ВИКОНУЙ ЦЕ ЗАВДАННЯ У ФАЙЛІ task-2.js
-Напиши функцію calcAverageCalories(days), яка повертає середньодобове значення кількості калорій, які спортсмен споживав протягом тижня. Функція очікує один параметр: days — масив об’єктів. Кожен об’єкт описує день тижня та кількість калорій calories, спожитих спортсменом, у цей день. Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
+
+Напиши функцію calcAverageCalories(days), яка повертає середньодобове значення кількості калорій, які спортсмен споживав протягом тижня. Функція очікує один параметр: days — масив об'єктів. Кожен об'єкт описує день тижня та кількість калорій calories, спожитих спортсменом, у цей день.
+
+Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів:
 
 console.log(
   calcAverageCalories([
@@ -69,8 +72,8 @@ console.log(
 Залиш цей код для перевірки ментором.
 
 На що буде звертати увагу ментор при перевірці:
-Оголошена функція calcAverageCalories(days)
-Такий виклик функції calcAverageCalories повертає 3180
+Оголошена функція calcAverageCalories(days).
+Такий виклик функції calcAverageCalories повертає 3180.
 calcAverageCalories([
   { day: "monday", calories: 3010 },
   { day: "tuesday", calories: 3200 },
@@ -79,9 +82,9 @@ calcAverageCalories([
   { day: "friday", calories: 3450 },
   { day: "saturday", calories: 3280 },
   { day: "sunday", calories: 3300 }
-])
+]).
 
-Такий виклик функції calcAverageCalories повертає 2270
+Такий виклик функції calcAverageCalories повертає 2270.
 calcAverageCalories([
   { day: "monday", calories: 2040 },
   { day: "tuesday", calories: 2270 },
@@ -90,12 +93,13 @@ calcAverageCalories([
   { day: "friday", calories: 2370 },
   { day: "saturday", calories: 2280 },
   { day: "sunday", calories: 2610 }
-])
+]).
 
-Такий виклик функції calcAverageCalories повертає 0
-calcAverageCalories([])
+Такий виклик функції calcAverageCalories повертає 0.
+calcAverageCalories([]).
 
 Задача 3. Профіль гравця
+
 ВИКОНУЙ ЦЕ ЗАВДАННЯ У ФАЙЛІ task-3.js
 Об’єкт profile описує профіль користувача на ігровій платформі. У його властивостях зберігається ім’я профілю username та кількість активних годин playTime, проведених у грі.
 
